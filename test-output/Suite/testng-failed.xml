@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRMS(failed)">
+    <classes>
+      <class name="testNG.HRMS">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="createEmployee"/>
+          <include name="searchEmployee"/>
+          <include name="deleteEmployee"/>
+          <include name="closeTheBrowser"/>
+          <include name="logIn"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- testNG.HRMS -->
+    </classes>
+  </test> <!-- HRMS(failed) -->
+</suite> <!-- Failed suite [Suite] -->
